@@ -22,5 +22,5 @@ const projectFirestore = firebase.firestore();
 
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
-// Exportin modules
+// Exporting modules to use It later
 export { projectStorage, projectFirestore, timestamp };
